@@ -1,0 +1,101 @@
+/* Widescreen
+================================================== */
+@media only screen and (min-width: 1200px) {
+.container {
+	width: 1170px;
+}
+
+.navbar-mgs .navbar-nav > li > a {
+	font-size: 2.1rem;
+}
+
+li.mgs-footer {
+  font-size: 1.6rem; 
+}
+
+.trigger-about {
+  position: absolute;
+  top: 580px;
+}
+
+.banner-home-info {
+	top: 38%;
+}
+
+.creamos-soluciones {
+  section {
+    padding-left: 30px; 
+  }
+}
+
+/*********************
+MENU
+*********************/
+.modal-menu {
+  a.figure-link {
+    figcaption {
+      h3 {
+        font-size: 3rem;
+        line-height: 2.8rem;
+
+        span {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+}
+
+.signboard {
+	margin-top: 13%;  
+	margin-bottom: 9%; 
+}
+/*********************
+EQUIPO
+*********************/
+.figure-overlay {
+	figcaption {
+		p {
+			br {
+				display: block;
+			}
+		}
+	}
+}
+
+.equipo-bloque {
+  .figure-overlay {
+    blockquote {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+.mgs-ux {
+	padding-left: 30px;
+}
+
+.otros-servicios .figure-overlay figcaption {
+	top: 32%;    
+}
+
+.otros-sectores .figure-overlay figcaption {
+	top: 43%;
+}
+
+/*********************
+PARCHES
+*********************/
+.half-fix {
+  width: 585px;
+}
+
+.figure-overlay figcaption.p-sm {
+  padding: 15px;
+
+  .text-xl {
+    font-size: 2.8rem;
+  }
+}
+
+}

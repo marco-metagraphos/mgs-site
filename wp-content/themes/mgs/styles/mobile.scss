@@ -1,0 +1,1391 @@
+/* Mobile
+================================================== */
+@media only screen and (max-width: 767px) {
+
+h3 {
+	padding-top: 30px; 
+}
+/*********************
+HEADER
+*********************/
+#trigger {
+	position: absolute;
+	top: 600px; 
+}
+
+/*********************
+MENU
+*********************/
+.body-overflow {
+	overflow: hidden;
+	position: relative; 
+	height: 100%;
+	z-index: -5;
+}
+
+.navbar-mgs {
+	padding: 6px 0;
+}
+// Transparente
+.navbar > .container .navbar-brand {
+	margin-left: 15px;
+	width: 200px;
+	-webkit-background-size: 80%;
+	-moz-background-size: 80%;
+	background-size: 80%;
+	background-position: 15px 50%;
+	
+}
+
+.navbar-mgs .navbar-toggle {
+	top: 0px;
+	border: 0;
+	z-index: 9;
+
+	.icon-bar {
+		background: rgba(255, 255, 255, 1);
+	}
+
+	&:hover, &:focus {
+		background: 0;
+	}
+}
+
+.navbar-mgs .collapsed {
+	.icon-bar {
+		background: rgba(255, 255, 255, 1);
+	}
+
+	&:hover, &:focus {
+		background: 0;
+	}
+}
+
+.navbar-mgs .navbar-collapse, .navbar-mgs .navbar-form {
+	background: #000;
+	border-top: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	// right: 0;
+	bottom: 0;
+	z-index: 5; 
+	// left: 0;   
+	// overflow-y: scroll;
+}
+
+.navbar-mgs .navbar-nav > li > a {
+	padding-left: 30px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	font-size: 2.8rem;
+	font-weight: 300;
+	color: #fff;
+
+	&:hover {
+		color: #959595;
+	}
+
+	&.active-yellow {
+		color: #E6B312!important;
+	}
+
+}
+
+.navbar-mgs .navbar-nav > .open > a, .navbar-mgs .navbar-nav > .open > a:hover, .navbar-mgs .navbar-nav > .open > a:focus {
+	color: #959595;
+}
+
+.navbar-mgs .navbar-nav .open .dropdown-menu > li > a {
+	padding: 10px 0;
+	padding-left: 30px;
+	color: #959595;
+	font-size: 1.55rem;
+}
+
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+	max-height: inherit;
+}
+
+// Menu amarillo
+.navbar-mgs.small-navbar .navbar-nav > li > a, .navbar-mgs.small-navbar .navbar-nav > li > a {
+	color: #fff;
+	padding: 18px 0;
+	padding-left: 30px;
+	font-size: 2.6rem;
+
+	&.active {
+		color: rgba(255,255,255,0.7);
+	}
+}
+
+.small-navbar {
+
+	.navbar-toggle {
+		top: 0;
+		border: 0;
+		background: transparent;
+
+		.icon-bar {
+			background: #fff;
+		}
+	}
+
+	.collapsed {
+		.icon-bar {
+			background: #fff;
+		}
+	}
+
+	.navbar-collapse{
+		background: #000;
+		border-top: 1px solid #959595;
+	}
+
+	.navbar-nav .open .dropdown-menu > li > a {
+		color: #fff;
+		padding: 16px 0;
+		padding-left: 30px;
+		font-size: 1.8rem;
+
+		&:hover {
+			color: #959595;
+		}
+	}
+}
+
+.navbar-nav {
+	position: relative;
+	top: 50px;
+}
+
+// Modal
+// .modal-menu {
+// 	position: static;
+// 	margin-left: -15px;
+// 	margin-right: -15px;
+// }
+
+.modal-menu  {
+	.modal-content  {
+		margin: 70px 0;
+
+		a.figure-link {
+			figure {
+				figcaption {
+					h3 {
+						margin-top: 0;
+						padding-top: 0;
+						font-size: 1.8rem;
+
+						small, span {
+							display: inline-block;
+							font-size: 1.8rem;
+							font-weight: 300;
+							line-height: 2.2rem;
+							color: #777777;
+						}
+
+						small {
+							padding-top: 18px;
+						}
+
+						.hide-text {
+						display: none
+					}
+					}
+				}
+			}
+		}
+	}
+}
+
+.sectors-menu {
+	.modal-menu  {
+		.modal-content  {
+			a.figure-link {
+				figure {
+					figcaption {
+						h3 {
+							span {
+								padding-top: 18px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.m-services {
+	text-align: center;
+
+	.modal-dialog {
+		margin: 10px 0;
+	}
+
+	figure {
+		padding: 15px;
+	}
+
+	img {
+		width: 50%;
+		margin: auto;
+	}
+
+	h3 {
+		font-size: 2.5rem;
+	}
+}
+
+.dropdown.open .dropdown-menu {
+	margin-bottom: 0;
+	margin-left: inherit;
+	margin-right: -15px;
+	padding-bottom: 0;
+
+	.p-md {
+		padding: 0;
+	}
+
+	.p-t-md {
+		padding-top: 0;
+	}
+}
+
+// Modal Contacto
+#navModalContact {
+	.modal-dialog {
+		width: auto;
+	}
+
+	.modal-content {
+		overflow-y: auto; 
+		height: auto;
+	}
+
+	.modal-footer {
+		padding-bottom: 50px;
+	}
+
+	.contacto-info {
+		width: 100%;
+	}
+
+	#map {
+		display: none;
+	}
+
+	p {
+		line-height: 2.4rem;
+	}
+}
+
+// Idiomas
+// .lang-item {
+//   a:link, a:visited {
+//     color: #fff;
+// 	padding: 18px 0;
+// 	padding-top: 18px;
+// 	padding-left: 8px;
+// 	font-size: 2.6rem;
+// 	font-weight: 300;
+// 	display: block;
+//   }
+// }
+
+#navbar {
+	section {
+		float: none;
+
+		// &:first-child {
+		// 	display: none;
+		// }
+
+		// &:last-child {
+		// 	display: block;
+		// 	margin-top: 44px;
+		// }
+	}
+}
+
+.textwidget {
+	// overflow: auto;
+	// padding-bottom: 36px; 
+}
+
+#gmap {
+.textwidget {
+    padding-bottom: 0;
+  }
+} 
+/*********************
+BANNER
+*********************/
+.fondo-movil {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 530px;
+	background: url(images/fondo-movil.jpg)center top no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	
+
+	img {
+		max-width: 100%;
+		width: 100%;
+		position: relative;
+		top: 17px;
+	}
+}
+
+.jumbotron-top.home-bg {
+	top: 0;
+	height: 530px!important;
+	background: url(images/fondo-movil.jpg)center top no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+	h2 {
+		line-height: 2.5rem; 
+
+		small {
+			font-size: 2.2rem;
+		}	
+	}
+
+}
+
+.jumbotron {
+	.banner-home-info {
+		top: 20%;
+		padding: 5%;
+		height: 530px;
+	}
+}
+
+.jumbotron.home-bg, .jumbo-about {
+	h1 {
+		margin-bottom: 0;
+		padding-top: 30px;
+		font-size: 4rem;
+	}
+
+	h2 {
+		small {
+			font-size: 2.6rem;
+		}	
+	}
+}
+
+.jumbo-about {
+	h1 {
+		margin-top: 40px;
+		font-size: 3.7rem;
+	}
+
+	h2 {
+		small {
+			font-size: 1.77rem;
+		}
+	}
+	
+}
+
+// Sectores
+.jumbo-sectors {
+  .container {
+    top: 120px;
+  }
+}
+
+.jumbo-elearning {
+	h1 {
+		// padding-top:
+		// font-size: 2.8rem
+	}  
+}
+
+.fondo-desktop {
+	display: none;
+}
+
+
+.creamos-soluciones {
+	.p-r-lg {
+		padding-right: 0;
+		padding-left: 0;
+		margin-top: 30px;
+		margin-bottom: 40px;
+	} 
+}
+
+// Acerca
+.jumbo-about {
+	height: 530px!important; 
+
+	.container {
+		padding: 5%;
+		top: 20%;
+
+
+	}
+}
+
+/*********************
+FORMULARIO
+*********************/
+.talk-about-innovation {
+	text-align: left;
+
+	header {
+		h2 {
+			font-size: 4.2rem;
+		}
+
+		.somos-text {
+			margin-top: 4px;
+			font-size: 2.2rem;
+		}
+	}
+
+	br {
+		display: none;
+	}
+
+	.br-movil {
+		display: block;
+	}
+
+	.info-movil {
+		display: inline-block;
+		margin-top: 4px;
+	}
+
+	.info-desktop {
+		display: none;
+	} 
+	
+}
+
+.select2-container {
+	width: 180px!important;
+}
+
+.nl-form {
+	margin-top: 5rem;
+	font-size: 2.8rem;
+
+	input {
+		margin-bottom: 0px;
+	}
+
+	.nombre, .mail {
+		position: relative;
+		top: -10px;
+	}
+
+	.parche {
+		display: inline-block;
+		margin-top: 20px;
+		line-height: 2.3rem;
+	}
+
+	.empresa {
+		position: relative;
+		top: -6px;
+	}
+}
+
+.nl-field ul {
+	left: -15rem;
+	font-size: 90%;
+}
+
+/*********************
+REDES
+*********************/
+.feed-twitter {
+// Texto
+  .tweet {
+    width: auto;
+  }
+}
+
+// Newsletter
+.newsletter,  {
+  .lead {
+    margin-top: 20px;  
+  } 
+}
+
+/*********************
+EQUIPO
+*********************/
+.our-team {
+	margin-bottom: 50px;
+}
+
+.figure-overlay {
+	figcaption.b-l {
+		p {
+			font-size: 3.6rem;
+			line-height: 4rem;
+		}
+	}
+
+	figure {
+		height: 204px;
+		overflow-y: hidden;
+
+		blockquote {
+			// padding-top: 76px;
+			font-size: 2rem;
+			line-height: 2.4rem;
+		}
+	}
+
+	figcaption {
+		top: 20%;
+		text-align: left;
+
+		span {
+			font-size: 2rem;
+		}
+
+		p {
+			font-size: 3.2rem;
+			font-weight: 400;
+
+			br {
+				display: block;
+			}
+		}
+
+		&.single {
+			top: 26%;
+		}
+
+		&.p-sm {
+			padding: 15px;
+		}
+	}
+}
+
+// Acerca
+.equipo-bloque {
+  .figure-overlay {
+    figcaption {
+    	.text-xl {
+			font-size: 3.3rem;
+
+    	}
+
+		.medium {
+			font-size: 2.4rem;
+		}
+    }
+  }
+}
+
+blockquote p.blockquote-text {
+	width: auto;
+	font-size: 2rem;
+	line-height: 2.4rem;
+}
+
+blockquote {
+	small {
+		font-size: 1.6rem;
+	}
+}
+
+.q-modi {
+  &:before {
+    // margin-left: 12%;
+  }
+}
+
+.otros-servicios .figure-overlay {
+	figcaption {
+		top: 26%;
+
+		.titulo {
+		 	font-size: 2rem;
+		}
+
+		.descripcion {
+			font-size: 3rem;
+			line-height: 3.2rem;
+		}
+
+		figure {
+			blockquote {
+				padding-top: 76px; 
+			}
+		}
+	}
+}
+
+.otros-servicios .figure-overlay figure blockquote {
+	padding-top: 76px;
+}
+
+.otros-productos .figure-overlay figure blockquote {
+	padding-top: 76px;
+}
+
+.otros-sectores .figure-overlay figure blockquote {
+	padding-top: 76px;
+}
+
+.methodology {
+	h4 {
+		margin-top: 40px;
+
+		br {
+			display: none
+		}
+	}
+
+	.lead {
+		font-size: 1.8rem;
+	}
+}
+
+.serv-tit {
+  margin: 40px 0;
+  font-size: 3.7rem;
+}
+
+.enfoque-tit {
+  margin-top: 40px;
+}
+
+.desc-c {
+  margin-bottom: 40px;
+
+  h3 {
+  	margin-left: -15px;
+  }
+}
+
+.redes-col {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#newsletter, #newsletter-en, #newsletter-new {
+	.boton {
+		text-align: right;
+	}
+}
+
+/*********************
+FOOTER
+*********************/
+.footer {
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 50px;
+	padding-bottom: 30px;
+
+	h5 {
+		margin-top: 30px;
+		margin-bottom: 6px;
+		font-size: 2.8rem;
+	}
+
+	ul {
+		margin-bottom: 20px;
+	}
+
+	li {
+	}
+
+	.copyright {
+		text-align: center;
+		display: none;
+	}
+
+	.copy-movil {
+		display: block;
+		padding-left: 15px;
+
+		p {
+			font-size: 1.5rem;
+			line-height: 2rem;
+			color: #C4C4C4;
+		}
+	}
+}
+
+.foot-hide {
+	display: none;
+}
+
+li.mgs-footer {
+	font-size: 1.7rem;
+	line-height: 2rem;
+
+	br {
+		display: block;
+	}
+}
+
+.footer-logo {
+	margin: auto;
+	width: auto;
+	float: none!important;
+	padding-left: 15px;
+
+	img {
+		margin-bottom: 0px;
+		width: 130px;
+	}
+}
+
+.footer-menu {
+	margin: auto;
+	margin-top: 0px;
+	float: none!important;
+
+	li {
+		a {
+			display: block;
+			padding: 5px 0;
+			font-size: 1.6rem;
+		}
+	}
+}
+
+.explora {
+	li {
+		font-size: 1.6rem;
+	}
+}
+
+.line25 {
+	display: none;
+}
+
+.image-roller {
+	margin-bottom: 40px;
+}
+
+/*********************
+IMAGENES DE FONDO
+*********************/
+.about-bg {
+	background: url("images/acerca_img_mov-land_0.jpg") center center no-repeat;
+}
+.elearnign-bg {
+	background: url("images/elearning_img_mov-land_0.jpg") center center no-repeat;
+}
+
+.productivity-bg {
+	background: url("images/productivity_img_mov-land_0.jpg") center center no-repeat;
+}
+
+.consultancy_bg {
+	background: url("images/consultancy_img_mov-land_0.jpg") center center no-repeat;
+}
+
+.porta-bg {
+	background: url("images/porta_img_mov-land_0.jpg") center center no-repeat;
+}
+
+.vbt-bg {
+	background: url("images/vbt_img_mov-land_0.jpg") center center no-repeat;
+}
+
+.colormaze-bg {
+	background: url("images/colormaze_img_mov-land_0.jpg") center center no-repeat;
+}
+
+.corporate-bg {
+	background: url("images/corporate_img_mov-land_0.jpg") center center no-repeat;
+}
+
+.government-bg {
+	background: url("images/government_img_mov-land_0.jpg") center center no-repeat;
+}
+
+.startups-bg {
+	background: url("images/startups_img_mov-land_0.jpg") center center no-repeat;
+}
+/*********************
+PARCHES
+*********************/
+.half-fix {
+	width: auto;
+	padding: 8% 0px;
+	padding-bottom: 10%; 
+}
+
+.refix {
+	margin-left: 0;
+}
+
+.desc {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.intro-servicios {
+	.row.m-lg {
+		margin: 30px 0;
+	}
+
+	blockquote {
+		margin-top: -14px;
+	}
+}
+
+.servicios h2 {
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.medium {
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+}
+
+.mgs-ux-l .ux-desc, .mgs-ux-r .ux-desc {
+	margin-bottom: 40px;
+}
+
+.prensa-bg {
+  background: url("images/prensa-bg-mov-land.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#prensa {
+	.filtros {
+		width: auto;
+	}
+
+	.col-sm-4 {
+	    min-height: inherit;
+	    margin-bottom: 50px;
+	 }
+}
+
+
+}
+
+/* Mobile Landscape a Tablet Portrait
+================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Mobile Portrait a Mobile Landscape
+================================================== */
+@media only screen and (max-width: 479px) {
+h2 {
+	font-size: 3.2rem;
+}
+
+h3 {
+	font-size: 3.2rem;
+}
+
+h4 {
+	font-size: 2rem;
+}
+
+p {
+	line-height: 2rem;
+}
+
+.big {
+	font-size: 1.8rem;
+}
+
+.mgs-ux-l .ux-desc, .mgs-ux-r .ux-desc, .gray-light-text {
+	margin-top: 10px;
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+}
+
+/*********************
+MENU
+*********************/
+.navbar-mgs {
+	.navbar-nav {
+		li {
+			a {
+				padding-bottom: 18px;
+				padding-top: 18px;
+			}
+		}
+	} 
+}
+
+
+.modal-menu {
+		a.figure-link figcaption h3 {
+		font-size: 1.4rem;
+
+		small {
+			font-size: 1.6rem;
+			height: 1rem;
+		}
+	}
+}
+
+.modal-content .container {
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	.col-xs-4 {
+		float: none;
+		width: 100%;
+	}
+
+	figure {
+		img {
+			display: none;
+		}
+
+		h3 {
+			padding: 8px 0;
+			margin: 0px 0;
+			line-height: .7rem;
+
+			span, small {
+				margin: 0px 0;
+				font-size: 1.6rem;
+				color: #777777;
+				display: inline-block;
+			}
+
+			span {
+				padding-top: 10px;
+			}
+
+		}
+	}
+}
+
+// Productos
+.products-menu {
+	.modal-menu  {
+		.modal-content  {
+			a.figure-link {
+				figure {
+					figcaption {
+						h3 {
+							br {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+// Sectores
+.sectors-menu {
+	.modal-menu  {
+		.modal-content  {
+			a.figure-link {
+				figure {
+					figcaption {
+						h3 {
+							span {
+								padding-top: 10px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.dropdown.open .dropdown-menu {
+	padding: 0;
+}
+
+.navbar-mgs {
+	padding: 10px 0;
+}
+
+/*********************
+BANNER
+*********************/
+.jumbotron {
+	.banner-home-info {
+		top: 12%;
+	}
+}
+
+.jumbotron-top {
+	min-height: inherit;
+}
+
+.jumbotron .container {
+	padding: 5%;
+}
+
+.jumbotron-top.home-bg {
+	h2 {
+		line-height: 1.9rem;
+
+		small { 
+		}	
+	}
+
+}
+
+.jumbotron.home-bg, .jumbo-about {
+	h1 {
+		padding-top: 76px;
+		font-size: 3rem;
+	}
+
+	h2 {
+		line-height: 2.3rem;
+
+		small {
+			font-size: 1.7rem;
+			font-weight: 300;
+		}
+	}
+}
+
+.jumbo-about {
+	h1 {
+		font-size: 3.7rem;
+		padding-top: 40px;
+	}
+
+	h2 {
+		small {
+			font-size: 1.77rem;
+		}
+	}
+}
+
+.jumbo-elearning {
+	h1 {
+		padding-top: 60px; 
+		// font-size: 1.8rem
+	} 
+}
+
+.jumbotron .btn {
+	// margin-top: 0px;
+}
+
+
+.signboard {
+	h2 {
+		margin-bottom: 20px;
+	}
+
+	.btn {
+		margin-top: 15px;
+	}
+}
+
+.somos-meta {
+	margin-top: -10px;
+}
+
+.figure-overlay figcaption.p-sm .text-xl {
+	font-size: 2.1rem;
+}
+
+/*********************
+EQUIPO
+*********************/
+.our-team {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.figure-overlay {
+	figcaption.b-l {
+		p {
+			font-size: 3.6rem;
+			line-height: 4rem;
+		}
+	}
+
+	figure {
+		height: 130px;
+		overflow-y: hidden; 
+	}
+
+	figcaption {
+		padding: 8px;
+		top: 10%;
+		line-height: 1.4rem;
+
+		span {
+		font-size: 1.9rem;
+	}
+
+	p {
+		font-size: 2.2rem;
+		line-height: 2.6rem;
+	}
+
+		&.single {
+			top: 18%;
+		}
+	}
+}
+
+// Acerca
+.equipo-bloque {
+  .figure-overlay {
+    figcaption {
+    	.text-xl {
+			font-size: 2.8rem;
+
+    	}
+
+		.medium {
+			font-size: 1.9rem;
+		}
+    }
+  }
+}
+
+.otros-servicios .figure-overlay {
+	figcaption {
+		.titulo {
+		 	font-size: 1.7rem;
+		 	line-height: 2rem;
+		}
+
+		.descripcion {
+			font-size: 2rem;
+			line-height: 2.2rem;
+		}
+	}
+}
+
+.otros-productos .figure-overlay {
+	figcaption {
+		.titulo {
+		 	font-size: 1.7rem;
+		 	line-height: 2rem;
+		}
+
+		.descripcion {
+			font-size: 2rem;
+			line-height: 2.2rem;
+		}
+	}
+}
+
+.otros-sectores .figure-overlay {
+	figcaption {
+		.titulo {
+		 	font-size: 1.7rem;
+		 	line-height: 2rem;
+		}
+
+		.descripcion {
+			font-size: 2rem;
+			line-height: 2.2rem;
+		}
+	}
+}
+
+.intro-text {
+	font-size: 2.2rem;
+	line-height: 2.6rem;
+}
+
+.figure-overlay figcaption.b-l p {
+	font-size: 3rem;
+}
+
+.figure-overlay figure blockquote {
+	font-size: 1.6rem;
+	line-height: 2rem;
+}
+
+.methodology {
+	.lead {
+		// font-size: 1.5rem;
+	}  
+}
+
+blockquote p.blockquote-text {
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+}
+
+blockquote {
+	small {
+		font-size: 1.5rem;
+	}
+}
+
+.cont-g {
+	p {
+		font-size: 1.6rem;
+	}
+}
+
+.desc {
+	p {
+		font-size: 1.8rem;
+	}
+}
+
+/*********************
+FORMULARIO
+*********************/
+.talk-about-innovation {
+	padding-top: 70px;
+	padding-bottom: 70px;
+
+	header {
+		h2 {
+			font-size: 2.8rem;
+		}
+
+		.somos-text {
+			margin-top: 4px;
+			font-size: 1.65rem;
+		}
+	}
+	
+}
+
+.sobre {
+	display: block
+}
+
+.nl-form {
+	font-size: 2.2rem;
+}
+
+.nl-ti-text ul li.nl-ti-example {
+	font-size: 1.55rem;
+}
+
+.nl-ti-text ul li.nl-ti-input input {
+	font-size: 2rem;
+}
+
+.nl-dd ul li {
+	font-size: 1.8rem;
+}
+
+.nl-field ul {
+	left: -4.5rem;
+}
+
+/*********************
+FOOTER
+*********************/
+.footer {
+	.copy-movil {
+		p {
+			font-size: 1.36rem;
+		}
+	}
+}
+
+.consultancy_bg {
+	background: url("/images/consultancy_img_0.jpg") 35% top no-repeat;
+}
+
+/*********************
+IMAGENES DE FONDO
+*********************/
+.about-bg {
+	background: url("images/acerca_img_mov-port_0.jpg") center center no-repeat;
+}
+.elearnign-bg {
+	background: url("images/elearning_img_mov-port_0.jpg") center center no-repeat;
+}
+
+.productivity-bg {
+	background: url("images/productivity_img_mov-port_0.jpg") center center no-repeat;
+}
+
+.consultancy_bg {
+	background: url("images/consultancy_img_mov-port_0.jpg") center center no-repeat;
+}
+
+.porta-bg {
+	background: url("images/porta_img_mov-port_0.jpg") center center no-repeat;
+}
+
+.vbt-bg {
+	background: url("images/vbt_img_mov-port_0.jpg") center center no-repeat;
+}
+
+.colormaze-bg {
+	background: url("images/colormaze_img_mov-port_0.jpg") center center no-repeat;
+}
+
+.corporate-bg {
+	background: url("images/corporate_img_mov-port_0.jpg") center center no-repeat;
+}
+
+.government-bg {
+	background: url("images/government_img_mov-port_0.jpg") center center no-repeat;
+}
+
+.startups-bg {
+	background: url("images/startups_img_mov-port_0.jpg") center center no-repeat;
+}
+
+.prensa-bg {
+  background: url("images/prensa-bg-mov-port.jpg") center center no-repeat;
+}
+
+
+.otros-servicios .figure-overlay figure blockquote {
+	padding-top: 38px;
+}
+
+.otros-productos .figure-overlay figure blockquote {
+	padding-top: 38px;
+}
+
+.otros-sectores .figure-overlay figure blockquote {
+	padding-top: 38px;
+}
+
+#prensa {
+	.filtros {		
+		a:link, span {
+			display: block;
+			padding: 8px 0;
+		}
+	}
+}
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 479px) {
+	.jumbotron.home-bg h1 {
+		font-size: 3.8rem;
+	}
+}
+
+/* Mobile Retina Display
+================================================== */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+	
+
+}
+	

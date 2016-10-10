@@ -1,0 +1,16 @@
+@import url("../bootstrap-basic/style.css");
+
+/*
+Theme Name: MGS
+Description: Tema del blog de Metagraphos
+Author: Metagraphos
+Author url: http://www.metagraphos.com
+Version: 1
+Template: bootstrap-basic
+*/
+
+@import "desktop.scss"; 
+@import "widescreen.scss";
+@import "ipad.scss";
+@import "tablet.scss"; 
+@import "mobile.scss";

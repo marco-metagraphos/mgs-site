@@ -1,0 +1,429 @@
+/* Tablet
+================================================== */
+@media only screen and (max-width: 992px) {
+h1 {
+	font-size: 6rem;
+}
+
+h2 {
+	font-size: 3.2rem;
+}
+
+.less-h2 {
+	margin-bottom: 15px;
+}
+
+p {
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+}
+
+.big {
+	font-size: 2rem;
+}
+/*********************
+HEADER
+*********************/
+.navbar-right {
+	margin-right: 0
+}
+
+.navbar > .container .navbar-brand {
+	margin-left: 0;
+	min-width: 0;
+	width: 136px;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
+}
+
+.navbar-mgs .navbar-nav > li > a {
+	padding: 5px 6px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 1.6rem;
+}
+
+.navbar-mgs .navbar-nav > li > a span {
+	padding-left: 6px;
+}
+
+.small-navbar {
+	ul {
+		margin-top: 10px;
+	}
+}
+
+.small-navbar > .container .navbar-brand {
+	// width: 90px;
+	-webkit-background-size: 80%;
+	-moz-background-size: 80%;
+	background-size: 80%;
+	background-position: 50%;
+	
+}
+
+.navbar-mgs.small-navbar .navbar-nav > li > a {
+	padding: 5px 6px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 1.6rem;
+}
+
+// Modal
+.modal-menu {
+	top: 44px;
+}
+
+.modal-menu a.figure-link figcaption h3 {
+	font-size: 2.2rem;
+
+	small {
+		font-size: 1.8rem;
+	}
+}
+
+.text-nowrap {
+  white-space: normal;
+}
+
+.banner-home-info {
+	top: 28%;
+}
+
+// Modal Contacto
+#navModalContact {
+	.modal-dialog {
+		width: 720px;
+	}
+}
+
+// Idioma
+// .lang-item {
+//   padding: 5px 0;
+//   padding-left: 10px;
+
+//   a:link, a:visited {
+//     font-size: 1.6rem;
+//   }
+// }
+
+.small-navbar {
+  .lang-item {
+    a:link, a:visited {
+      padding-top: 0px;
+    }
+  }
+}
+
+/*********************
+BANNER
+*********************/
+.signboard {
+	margin-top: 1%;
+}
+
+.jumbotron.home-bg, .jumbo-about {
+	h1 {
+		font-size: 4.9rem;
+		margin-bottom: 12px;
+	}
+
+	h2 {
+		line-height: 3.1rem;
+
+		small {
+			font-size: 2.9rem;
+		}	
+	}
+}
+
+.creamos-soluciones {
+	// padding-left: 30px;
+	
+	h2 {
+		margin-top: 40px;
+		margin-bottom: 10px;
+		font-size: 2.4rem;
+	}
+
+	p {
+		font-size: 1.8rem;
+	}
+	
+}
+
+/*********************
+ABOUT
+*********************/
+.figure-overlay {
+	figcaption {
+		p {
+			line-height: 3rem;
+		}
+	}
+
+	&:hover {
+	    figcaption {
+	      opacity: 1;
+	    }
+
+	    figure::before,
+	    blockquote {
+	      opacity: 0;
+	    }
+	}
+
+	&.show {
+		figcaption {
+			opacity: 0;
+		}
+
+		figure::before,
+	    blockquote {
+	      opacity: 1;
+	    }
+	}
+}
+
+.equipo-bloque {
+  .figure-overlay {
+    figcaption {
+    	.text-xl {
+			font-size: 2.2rem;
+			margin-bottom: 0;
+
+    	}
+
+		.medium {
+			margin-top: -10px;
+			margin-bottom: -10px;
+			font-size: 1.7rem;
+		}
+    }
+  }
+}
+
+.figure-overlay figcaption.b-l {
+	p {
+		font-size: 1.8rem;
+	}
+
+	a {
+		font-size: 1.8rem;
+	}
+}
+
+.figure-overlay figure blockquote {
+	padding: 15px;
+	font-size: 1.35rem;
+	line-height: 1.45rem;
+}
+
+.blockquote-text {
+	line-height: 2.8rem;
+}
+
+.serv-tit {
+  margin: 60px 0;
+}
+
+.enfoque-tit {
+  margin-top: 60px;
+}
+
+.desc-c {
+  margin-bottom: 60px;
+}
+
+.member-container .more-s-p span {
+	font-size: 1.85rem;
+}
+
+/*********************
+REDES
+*********************/
+// Feed-Blog
+.feed-blog {
+	h1 {
+		font-size: 2.2rem;
+	}
+
+	p {
+		font-size: 1.6rem;
+		line-height: 2rem;
+	}
+}
+
+// newsletter
+.newsletter {
+  .lead {
+    // margin-top: 40px;  
+  } 
+}
+
+#newsletter, #newsletter-en, #newsletter-new  {
+	border-bottom: 1px solid #262520;
+
+	.col-sm-9 {
+		padding-right: 0;
+	}
+	input[type='email'] {
+		width: 120%;
+		font-size: 1.65rem;
+	}
+}
+
+.methodology {
+
+	.lead {
+		font-size: 1.6rem;
+	}
+
+	h4 {
+		font-size: 3rem;
+	}
+}
+
+.newsletter {
+	p {
+		margin-top: 20px;
+	}
+}
+
+.ben {
+	h4 {
+		font-size: 1.8rem;
+	}
+}
+
+/*********************
+FORMULARIO
+*********************/
+.talk-about-innovation {
+
+	header {
+		h2 {
+			font-size: 4.8rem;
+		}
+
+		.somos-text {
+			font-size: 1.8rem;
+		}
+	}
+}
+
+.nl-field ul {
+	left: -8rem;
+}
+
+.nl-form {
+	font-size: 2.8rem;
+}
+/*********************
+FOOTER
+*********************/ 
+.footer {
+	h5 {
+		font-size: 1.9rem;
+	}
+
+	p {
+		font-size: 1.3rem
+	}
+}
+.footer-logo {
+	width: 18%;
+
+	img {
+		width: 85%;
+	}
+}
+
+.footer-menu {
+	margin-right: -24px;
+}
+
+li.mgs-footer {
+	br {
+		display: none;
+	}
+}
+
+/*********************
+PARCHES
+*********************/
+.half-fix {
+  width: 375px;
+}
+
+// .mgs-ux-r .ux-desc, .mgs-ux-l .ux-desc {
+// 	font-size: 1.8rem;
+// }
+
+}
+
+/* Tablet Portrait a Desktop 
+================================================== */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+#video-home {
+	video {
+		margin-left: -20px;
+	}
+}
+
+.halff-r-container {
+	.p-l-lg, .mgs-ux-l {
+		margin-left: 5%;
+		padding-left: 0;
+	}
+}
+
+.refix {
+	// padding-right: 12%;
+}
+
+.fnone {
+	float: none;
+	clear: both;
+}
+
+.nl-form {
+	font-size: 2.3rem;
+}
+
+#prensa {
+	h2 {
+		font-size: 2.5rem;
+	}
+
+	p {
+		font-size: 1.6rem;
+		line-height: 2.2rem;
+	}
+
+	.card {
+		padding: 0;
+	}
+
+	.col-sm-4 {
+	    min-height: 550px;
+	 }
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+#video-home {
+	video {
+		margin-left: -20px;
+	}
+}
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1030px) {
+
+ 
+}
+	
